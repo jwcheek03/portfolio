@@ -2883,7 +2883,7 @@ textarea.form-control-lg {
 
 .btn-success {
   --bs-btn-color: #000;
-  --bs-btn-bg: #67c29c;
+  --bs-btn-bg: #x;
   --bs-btn-border-color: #67c29c;
   --bs-btn-hover-color: #000;
   --bs-btn-hover-bg: #7ecbab;
@@ -6085,6 +6085,10 @@ textarea.form-control-lg {
 }
 
 .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 10px;
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   position: absolute;
   right: 15%;
   bottom: 1.25rem;
@@ -11222,14 +11226,14 @@ body {
     top: 0.3rem;
     width: 0.75rem;
     height: 0.75rem;
-    background-color: white;
+    background-color: #64a19daa;
     border-radius: 50%;
 }
 
 .timeline-date {
     font-size: 0.85rem;
     font-weight: bold;
-    color: #ffffffaa;
+    color: #64a19daa;
     margin-bottom: 0.25rem;
 }
 
