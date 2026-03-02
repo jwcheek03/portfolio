@@ -11145,7 +11145,9 @@ body {
     padding: 5rem;
   }
 }
-.project-tags { line-height: 1; }
+.project-tags { 
+    line-height: 1; 
+}
 .tag-badge {
     display: inline-block;
     padding: .18rem .6rem;
@@ -11158,10 +11160,7 @@ body {
     border: 1px solid rgba(100,161,157,0.15);
     vertical-align: middle;
 }
-/* Optional: smaller on very small screens */
-@media (max-width: 576px) {
-    .tag-badge { font-size: .78rem; padding: .14rem .5rem; }
-}
+
 
 #honors .row.g-0 {
     min-height: 600px;
