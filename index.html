@@ -4,9 +4,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="John Cheek is an aspiring game developer with a wide array of skills from programming, to writing, to stage management." />
+        <meta name="description" content="John Cheek is a game developer with a wide array of skills from programming, to writing, to stage management." />
         <meta name="author" content="John Cheek" />
-        <title>John Cheek Portfolio Site | Aspiring Game Developer, Writer, Stage Manager</title>
+        <title>John Cheek Portfolio Site | Game Developer and Writer </title>
         <link rel="icon" type="image/x-icon" href="assets/JWC.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -44,7 +44,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">John Cheek</h1>
-                        <h3 class="text-white-50 mx-auto mt-2 mb-5">Aspiring Game Developer | Writer | Stage Manager</h3>
+                        <h3 class="text-white-50 mx-auto mt-2 mb-5">Game Developer & North Carolina State Graduate</h3>
                         <a class="btn btn-primary" href="#about">About me</a>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                         <br><br><br>
                         <h2 class="text-white mb-4">Who am I?</h2>
                             <p class="text-white-50 mb-4">
-                                I am John Wilson Cheek, a BS in Computer Science Game Development Concentration student at North Carolina State University with a minor in creative writing. 
+                                I am John Wilson Cheek, a Summa Cum Laude Graduate from North Carolina State University with a B.S. in Computer Science, a concentration in game development, and minors in creative writing and english. 
                             </p>
                             <p class="text-white-50 mb-4">
                                 I have a strong passion for storytelling, worldbuilding, and sharing my ideas with others which I explore through my interests of theatre, creative writing, and game development.
@@ -101,19 +101,20 @@
                 <!-- Featured Project Row-->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-8 col-lg-7">
-                        <img class="img-fluid mb-3 mb-lg-0" src="assets/img/tde-thumbnail.jpg" alt="..." style="border: 4px solid #64a19d;" />
+                        <img class="img-fluid mb-3 mb-lg-0" src="assets/img/FC-thumbnail.png" alt="..." style="border: 4px solid #64a19d;" />
                     </div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>The Deep End</h4>
+                            <h4>Firechess</h4>
                             <br>
-                            <p class="text-black-50 mb-0 mx-4">Triangle Game Jam 2026 Submission: A 3D game about diving deep underneath a pool to collect pool toys, making friends, and fighting eldritch abominations along the way.</p>
+                            <p class="text-black-50 mb-0 mx-4">Frontline Interactive's first title. A serious game developed as part of a new training program on disaster response for the US National Guard. Direct units to combat wildfires on a procedurally generated hexagon map.</p>
                             <br>
-                            <a class="btn btn-primary" href="https://memjamim.itch.io/the-deep-end" target="_blank">Visit itch.io page</a>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#firechess-modal">Learn More</a>
                             <div class="project-tags text-center text-lg-right mt-3">
                                 <span class="tag-badge">Team: 5</span>
-                                <span class="tag-badge">TGJ 2026</span>
-                                <span class="tag-badge">Godot Engine</span>
+                                <span class="tag-badge">Frontline Interactive</span>
+                                <span class="tag-badge">Unreal Engine 5</span>
+                                <span class="tag-badge">C++</span>
                             </div>  
                         </div>
                     </div>
@@ -123,6 +124,51 @@
                     <hr class="my-2" />
                     <h3 class="text-center text-uppercase text-muted" style="font-size: 1.6rem;">Game Projects</h3>
                     <hr class="mb-5" /> 
+                </div>
+                <!-- Image on left -->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/JWP-Thumbnail.png" alt="..." style="border: 4px solid #64a19d;" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Justice Well-Played: The Post Verdict</h4>
+                                    <br>
+                                    <p class="mb-0 text-white-50 mx-4">The conclusion to a nine-game Visual Novel series following a real court case. Developed in Ren'Py for Impartial inc, a criminal justice non-profit, as part of my senior design project.</p>
+                                    <br>
+                                    <!-- <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#liz101-modal">Learn More</a> -->
+                                    <div class="project-tags text-center text-lg-left mt-3">
+                                            <span class="tag-badge">Team: 6</span>
+                                            <span class="tag-badge">CSC 492</span>
+                                            <span class="tag-badge">Python</span>
+                                            <span class="tag-badge">Ren'Py</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Image on right -->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/tde-thumbnail.jpg" alt="..." style="border: 4px solid #64a19d;" /></div>
+                        <div class="col-lg-6 order-lg-first">
+                            <div class="bg-black text-center h-100 project">
+                                <div class="d-flex h-100">
+                                    <div class="project-text w-100 my-auto text-center text-lg-right">
+                                        <h4 class="text-white">The Deep End</h4>
+                                        <br>
+                                        <p class="mb-0 text-white-50 mx-4">Triangle Game Jam 2026 Submission: A 3D game about diving deep underneath a pool to collect pool toys, making friends, and fighting eldritch abominations along the way.</p>
+                                        <br>
+                                        <a class="btn btn-primary" href="https://memjamim.itch.io/the-deep-end" target="_blank">Visit itch.io page</a>
+                                        <div class="project-tags text-center text-lg-left mt-3">
+                                            <span class="tag-badge">Team: 5</span>
+                                            <span class="tag-badge">TGJ 2026</span>
+                                            <span class="tag-badge">Godot Engine</span>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
                 <!-- Image on left -->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
@@ -645,13 +691,22 @@
                 <h2 class="text-center text-uppercase mb-5">Experience</h2>
 
                 <div class="timeline">
+                    <!-- Timeline Item 0 -->
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 2026 – Present</div>
+                        <div class="timeline-content">
+                            <h5 class="mb-1">Game Developer – Frontline Interactive</h5>
+                            <p class="small text-white-50">
+                                Developed serious games in Unreal Engine 5 using C++ for professional contractors. Served as a principal gameplay programmer for Firechess on a small studio team. 
+                        </div>
+                    </div>
                     <!-- Timeline Item 1 -->
                     <div class="timeline-item">
                         <div class="timeline-date">Sep 2022 – Present</div>
                         <div class="timeline-content">
-                            <h5 class="mb-1">Lighting Designer / Sound Board Operator / Event Operations Technician – NC State University</h5>
+                            <h5 class="mb-1">Event Coordinator / Lighting Designer / Sound Board Operator – NC State University</h5>
                             <p class="small text-white-50">
-                                Wrote lighting cues for dozens of live theatre events in a 700-seat venue. Operated sound board during events and assisted performers in instrument setup. 
+                                Facilitated and managed dozens of live theatre events in a 700 seat venue. Wrote light cues to fit the client's needs. Operated sound board during events and assisted performers in instrument setup. 
                                 Provided backstage support for performers and quickly resolved issues to ensure smooth events.
                             </p>
                         </div>
@@ -875,6 +930,131 @@
     </footer>
 
     <!-- Modals -->
+     <div class="modal fade" id="firechess-modal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="infoModalLabel">More About Frontline Interactive's Firechess</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <!-- Carousel -->
+                <div id="carouselMediaFirechess" class="carousel slide mb-4" data-bs-ride="carousel" data-bs-interval="100000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="assets/img/FC-thumbnail.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Firechess In Action</h5>
+                            <p>Screenshot representing typical gameplay and the Air Tanker unit's Waterbomb ability.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="assets/vid/Map V2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Firechess Map Video Overview</h5>
+                            <p>Video showcasing the Firechess map and going over various tile types.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="assets/vid/Fire Spread, Wind, Comm health.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Firechess Firespread Video Overview</h5>
+                            <p>Video showcasing Firechess's wind-based fire spread mechanics.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="assets/vid/Units.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Firechess Unit Video Overview</h5>
+                            <p>Video showcasing Firechess's unique units and abilities, with specialties inspired by their real-world counterparts.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="assets/img/FC-unit-snippet.png" class="d-block mx-auto firechess-code-snippet" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>C++ Code Snippet: Unit</h5>
+                            <p>Code snippet showing the unit class's tile based movement logic.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" controls>
+                            <source src="assets/vid/Alerts.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Firechess Alert System Video Overview</h5>
+                            <p>Video showcasing Firechess's alert system that gives players an opportunity to address narrative based wildfire scenarios.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="assets/img/FC-unit-snippet.png" class="d-block mx-auto firechess-code-snippet" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>C++ Code Snippet: Alert System result</h5>
+                            <p>Code snippet showing how the alert manager class changes gameplay based on the player's response to narrative scenarios.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMediaFirechess" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMediaFirechess" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+                <!-- Bulleted Text Section -->
+                <!-- Game Info -->
+                    <h4 style="color: #64a19d;">Firechess Info</h4>
+                    <hr>
+                    <ul>
+                        <li>Developed for PC by Frontline Interactive in Unreal Engine 5 </li>
+                        <li>A gameplay-first serious game that supplements national guard wildfire response training </li>
+                        <li>5 Different unit types and 13 different tile types with unique abilities and rules </li>
+                        <li>15 possible narrative alert scenarios with outcomes that impact gameplay </li>
+                        <li>Fight the fire on a procedurally generated map and navigate dynamic fire spread that changes based on the wind and surrounding tiles </li>
+                        <li>Core systems developed with both C++ and UE blueprints </li>
+                    </ul>
+
+                    <!-- Personal Contributions -->
+                    <h4 style="color: #64a19d;">Personal Contributions</h4>
+                    <hr>
+                    <ul>
+                        <li>Programmed the general unit class, encompassing all generic unit behaviors</li>
+                        <li>Designed and implemented the 5 initial unit types and their unique abilities</li>
+                        <li>Implemented relevant Unit UI elements including the dynamic stamina bar</li>
+                        <li>Wrote 15 narrative scenarios that can appear as alerts</li>
+                        <li>Designed and implemented the alert system to add an additional layer to gameplay</li>
+                    </ul>
+
+                    <!-- Other Contributors -->
+                    <h4 style="color: #64a19d;">Other Contributors</h4>
+                    <hr>
+                    <ul>
+                        <li>
+                           <a href="https://www.linkedin.com/in/benjaminrimon/">Benjamin Rimon, </a> <a href="https://www.linkedin.com/in/kyle-setzer-997a19265/">Kyle Setzer, </a> <a href="https://www.linkedin.com/in/abigail-overton-nc/">Abigail Overton, </a><a href="https://www.linkedin.com/in/stricklandian/">Ian Strickland</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="modal-footer">
+                <a href="https://github.com/memjamim/FireGame/tree/main" class="btn btn-success" download target="_blank">View Github Repository</a>
+            </div>
+            </div>
+        </div>
+    </div>
+     
     <!-- Lizard 101 Modal -->
     <div class="modal fade" id="liz101-modal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered">
